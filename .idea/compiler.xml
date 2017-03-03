@@ -6,10 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="samplejsonextend" />
+        <module name="jsonpath" />
+        <module name="JSONPathTest" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="jsonpath" target="1.5" />
+      <module name="JSONPathTest" target="1.5" />
       <module name="samplejsonextend" target="1.5" />
     </bytecodeTargetLevel>
   </component>
